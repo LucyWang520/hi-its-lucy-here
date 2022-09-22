@@ -1,0 +1,31 @@
+/* CSS files add styling rules to your content */
+
+/* body tag*/
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+/* head use for: Hi! It;s Lucy here!*/
+h1 {
+  font-style: bold;
+  color: black;
+}
+
+/* custom-image use for: More Information*/
+ul.custom-image {
+  list-style-image: url("https://cdn.glitch.com/147b8646-a013-4315-bc08-59924c59e440%2F200w.gif?v=1618341097780");
+  height: 1px;
+  width: 1px;
+  margin-left: 50px;
+  transform: scale(0.5);
+}
+
+/* pet likes list use for: Biki's favoirties*/
+ol.petlikes {
+    list-style-type: lower-alpha;
+}
+
+/* .custom-image1 {
+  list-style-image: url("https://cdn.glitch.com/147b8646-a013-4315-bc08-59924c59e440%2Foutput-onlinepngtools.png?v=1618352046010");
+} */
