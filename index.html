@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello! It's Lucy here!</title>
+    
+    <!-- Embedded CSS styling -->
+    <style>
+      body1 {
+        font-style: normal;
+        color: #32a8a0;
+      }
+    </style>
+    <style>
+      body2 {
+        font-style: normal;
+        color: #bf2e6f;
+      }
+    </style>
+    <style>
+      body3 {
+        font-style: normal;
+        color: #bf2e6f;
+      }
+    </style>
+    <style>
+      h1 {
+        font-style: normal;
+        color: black;
+      }
+    </style>
+    <style>
+      h3 {
+        font-style: normal;
+        color: Black;
+      }
+    </style>
+    <style>
+      ul.list {
+        list-style-type: normal;
+      }
+    </style>
+    <style>
+      ul.food{
+        list-style-type: square;
+      }
+    </style>
+    <style>
+      ul.intro {
+        list-style-type: circle;
+      }
+    </style>
+    <style>
+      ol.pet {
+        list-style-type: upper-roman;
+      }
+    </style>
+    <style>
+      ul.custom-image {
+        list-style-image: url("https://cdn.glitch.com/147b8646-a013-4315-bc08-59924c59e440%2F200w.gif?v=1618341097780");
+        height: 1px;
+        width: 1px;
+        margin-left: 500px;
+        transform: scale(0.5);
+      }
+      </style>
+      <style>
+        ul.custom-image1 {
+            list-style-image: url("https://cdn.glitch.com/147b8646-a013-4315-bc08-59924c59e440%2Foutput-onlinepngtools.png?v=1618352046010");
+      }
+      </style>
+    <style>
+        ul.custom-image2 {
+            list-style-image: url("https://cdn.glitch.com/147b8646-a013-4315-bc08-59924c59e440%2Foutput-onlinepngtools-3.png?v=1618352901233");
+      }
+      </style>
+    
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Hi! It's Lucy here!</h1>
+    
+    <!-- Header list; click to jump to different paragraph -->
+    <ul class="custom-image2">
+      <li><a href="https://knowledge-is-power.glitch.me">My first Website</a></li>
+      <li><a href="#Introduce myself">Introduce myself</a></li>
+      <li><a href="#My favorites food">My favorites food</a></li>
+      <li><a href="#My beloved pet">My beloved pet</a></li>
+      <li><a href="#Some links">My Website links </a>: Other Website Projects!</li>
+      <li><a href="#More Informations">More Informations</a></li>
+    </ul>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js" defer></script>
+  
+     <!-- Introduce paragraph -->
+    <span id="Introduce myself">
+    <h2>Introduce myself</h2>
+      <ul class="intro">
+        <body1>
+        <li> Hi my name is Lucy.<br></li>
+        <li>I came from Taiwan and my Chinese name is MengCi.<br></li>
+        <li>I preferred to be called by Lucy!<br>Nice to meet you!</li>
+      
+        </body1>
+      </ul>
+    </span>
+    
+    <!-- Favorites food paragraph with order nested list -->
+    <span id="My favorites food">
+    <h3>My favorites food</h3>
+      <ul class="food">
+        <li style="color:red">Asian style food:</li>
+        <ol class="asian">
+          <li>Any kind!</li>
+        </ol>
+        <li style="color:green">American style food:</li>
+        <ol class="America ">
+          <li>Burgers</li>
+          <li>Pizza</li>
+          <li>BBQ</li>
+        </ol>
+      <li style="color:blue">Japanese style food:</li>
+        <ol class="japan">
+          <li>Sushi</li>
+          <li>Remen</li>
+        </ol>
+        
+    </ul>
+    </span>
+    
+    <!-- beloved pet paragraph -->
+    <span id="My beloved pet">
+    <h3>My beloved pet</h3>
+      <ol class="pet">
+      <body2>
+        <li>Her name is Hibiki but we call her Biki for short.<br></li>
+        <li>She is bichon and 2 years old.</li>
+      </body2>
+      </ol>
+    <h5>Biki's favorites</h5>
+      <ol class="petlikes">
+      <body2>
+        <li>Toys<br></li>
+        <li>Treats</li>
+      </body2>
+      </ol>
+    </span>
+    
+    <figure>
+      <img width="350" src="https://cdn.glitch.com/147b8646-a013-4315-bc08-59924c59e440%2FIMG_2329.jpeg?v=1618255536829" alt="A picture of my pet" />
+        <figcaption>A picture of my pet: Biki</figcaption>
+    </figure>
+    
+     <!-- Some links with custom image list-->
+    <span id="Some links">
+    <h3>Some links? Maybe</h3>
+      <ul class="custom-image1">
+        <body3>
+          <li>A. <a href="https://knowledge-is-power.glitch.me">Link to "Knowloge is power" page</a></li>
+          <li>B. <a href="https://link-to-somewhere.glitch.me">Link to "My Websites" page</a></li>
+          <li>C. <a href="https://image-audio-video.glitch.me">Link to "All about puppies!" page</a></li>
+          <li>D. <a href="https://css-mypuppy-story.glitch.me">Link to "It is my puppy's background story!" page</a></li>
+          <li>E. <a href="https://csslayout-its-me-again.glitch.me">Link to "Hi! It's me again!" page</a></li>
+        </body3>
+      </ul>
+    </span>
+    
+    
+    <!-- More Informations with custom image list-->
+    <span id="More Informations">
+    <h3>More Informations</h3>
+      <ul class="custom-image">
+        <li>Comming soon...</li>
+        <li>Comming soon...</li>
+        <li>Comming soon...</li>
+      </ul>
+    </span>
+        
+    
+  </body>
+</html>
